@@ -11,7 +11,7 @@
 inTab = [x for x in input("Wpisz liczby na listę: ").split(',')]
 outTab = []
 
-for x in inTab:
+for A in inTab:
     p = int(x, 2)
     if p % 5 == 0:
         outTab.append(x)
